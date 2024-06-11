@@ -4,22 +4,23 @@ This project is a web application that helps users find words from a dictionary 
 # How to Use This Web Application
 1. **Clone the Repository**:
 Clone this GitHub repository to your local machine using the command:
-git clone https://github.com/your-username/your-repository.git
+*git clone https://github.com/your-username/your-repository.git*
 
 2. **Navigate to the Project Directory**:
 Open a terminal or command prompt and navigate to the project directory:
-cd your-repository
+*cd your-repository*
 
 3. **Access the Frontend Files**:
 Move to the directory containing the frontend files (HTML, CSS, JavaScript):
-cd frontend
+*cd frontend*
 
 4. **Running the Application**
 Open the HTML File:
 Open the HTML file in your browser either by double-clicking on it or using the terminal/command prompt:
 
-open index.html   # macOS/Linux
-start index.html  # Windows
+*open index.html*   # macOS/Linux
+
+*start index.html*  # Windows
 
 5. **Interact with the Web Application**:
 Once the HTML file is opened, the web application will load in your browser.
