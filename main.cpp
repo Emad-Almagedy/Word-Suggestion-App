@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
 
     string word = argv[1];
     vector<string> dictionary;
-    ifstream infile("backend/dictionary.txt");
+    ifstream infile("/backend/dictionary.txt");
 
     if (!infile) {
         cerr << "Error opening dictionary file." << endl;
