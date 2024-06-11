@@ -1,0 +1,111 @@
+body {
+    padding-top: 5rem   ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: repeat;
+    height: auto;
+    background-color: #e5e5f7;
+    /* opacity: 0.4; */
+    background-image: radial-gradient(#778da9 0.7000000000000001px, #e5e5f7 0.7000000000000001px);
+    background-size: 14px 14px;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #495768;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #778da9;
+    border: 1px solid #495768 ;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #495768;
+}
+
+#suggestions {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* for the list generated */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #495768;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #778da9;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 30px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #suggestions {
+        margin-top: 10px;
+    }
+
+    li {
+        padding: 8px;
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+}
